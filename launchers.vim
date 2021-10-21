@@ -16,6 +16,7 @@ autocmd FileType javascript nnoremap <F5> :ter node %<CR>
 autocmd FileType sh nnoremap <F5> :ter bash %<CR>
 autocmd FileType php nnoremap <F5> :ter php %<CR>
 autocmd FileType go nnoremap <F5> :ter go run %<CR>
+autocmd FileType ruby nnoremap <F5> :ter ruby %<CR>
 
 "autocmd FileType cbl nnoremap <F5> :ter cobc -x %<CR>
 
