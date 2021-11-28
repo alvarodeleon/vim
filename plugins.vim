@@ -12,8 +12,8 @@ Plug 'itchyny/lightline.vim'
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
-"Plug 'vim-airline/vim-airline-themes'
-"Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'bling/vim-airline'
 
 " Tree
 Plug 'scrooloose/nerdtree'
@@ -64,7 +64,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 
 
-
+Plug 'berdandy/AnsiEsc.vim'
 
 
 call plug#end()

@@ -38,10 +38,19 @@ so ~/.config/vim/launchers.vim
 
 so ~/.config/vim/thirds.vim
 
+
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark = "hard"
 colorscheme gruvbox
+let g:airline_theme='simple'
+let g:airline#extensions#tabline#enable = 1
+
 set background=dark
+
+"colorscheme  molokai  
+"set t_Co=256
+"set background=dark
+
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
