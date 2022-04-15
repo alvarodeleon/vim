@@ -36,7 +36,7 @@ Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
 
 " autocomplete
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
 Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
 
@@ -45,8 +45,8 @@ Plug 'tyewang/vimux-jest-test'
 Plug 'janko-m/vim-test'
 
 "Debugging
-Plug 'puremourning/vimspector'
-Plug 'szw/vim-maximizer'
+"Plug 'puremourning/vimspector'
+"Plug 'szw/vim-maximizer'
 
 " IDE
 Plug 'editorconfig/editorconfig-vim'
