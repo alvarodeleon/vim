@@ -32,8 +32,8 @@ Plug 'alpertuna/vim-header'
 "Plug 'ycm-core/YouCompleteMe'
 
 " tmux
-Plug 'benmills/vimux'
-Plug 'christoomey/vim-tmux-navigator'
+"Plug 'benmills/vimux'
+"Plug 'christoomey/vim-tmux-navigator'
 
 " autocomplete
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -50,8 +50,8 @@ Plug 'janko-m/vim-test'
 
 " IDE
 Plug 'editorconfig/editorconfig-vim'
-Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
