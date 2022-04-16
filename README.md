@@ -1,9 +1,41 @@
 # VIM Config
 
+## Basic configuration
 
-## Installing Dependencies
+Executing in console:
+```
+mkdir ~/.config
 
-### Debian
+cd ~/.config
+```
+
+Download configs:
+```
+git clone https://github.com/alvarodeleon/vim.git
+```
+
+Creating Symlink:
+```
+ln -s ~/.config/vim/vimrc ~/.vimrc
+```
+
+```
+mv -f ~/.config/vim/plugins-simple.vim ~/.config/vim/plugins.vim
+```
+
+### Installing Vim Plug
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+Later run **vim** and execute **:PlugInstall**
+
+
+## Full Configuration
+
+### Installing Dependencies
+
+#### Debian
 ```
 apt-get install git wget curl build-essential python3 python3-pip python-dev python3-venv libncurses5-dev libncursesw5-dev ruby-dev libgtk-3-dev snapd
 
@@ -11,7 +43,7 @@ apt-get build-dep vim-gtk
 
 ```
 
-### Fedora
+#### Fedora
 ```
 dnf install -y git wget curl python3 python3-pip python3-devel ruby ruby-devel ncurses-devel gtk3-devel snapd
 
@@ -19,7 +51,7 @@ dnf groupinstall "Development Tools"
 
 yum-builddep vim-enhanced
 ```
-### Fedora and Debian
+#### Fedora and Debian
 
 ```
 service snapd restart
@@ -27,7 +59,7 @@ service snapd restart
 snap install node --classic
 ```
 
-## Compiling VIM from source
+### Compiling VIM from source
 
 Download VIM Source code:
 ```
@@ -53,7 +85,7 @@ make
 sudo make install
 ```
 
-## Creating necessary folders for configs
+### Creating necessary folders for configs
 
 Executing in console:
 ```
@@ -72,7 +104,7 @@ Creating Symlink:
 ln -s ~/.config/vim/vimrc ~/.vimrc
 ```
 
-## Installing Vim Plug
+### Installing Vim Plug
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
