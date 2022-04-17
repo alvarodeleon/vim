@@ -24,7 +24,7 @@ mv -f ~/.config/vim/plugins-simple.vim ~/.config/vim/plugins.vim
 ```
 If want add this configuration for NEOVIM then:
 ```
-~/.config/nvim/
+mkdir -p ~/.config/nvim/
 ln -f ~/.config/vim/vimrc ~/.config/nvim/init.vim
 ```
 
