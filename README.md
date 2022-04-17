@@ -22,14 +22,25 @@ ln -s ~/.config/vim/vimrc ~/.vimrc
 ```
 mv -f ~/.config/vim/plugins-simple.vim ~/.config/vim/plugins.vim
 ```
+If want add this configuration for NEOVIM then:
+```
+~/.config/nvim/
+ln -f ~/.config/vim/vimrc ~/.config/nvim/init.vim
+```
 
-### Installing Vim Plug
+### Installing Plug for VIM
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 Later run **vim** and execute **:PlugInstall**
 
+### Installing Plug for NEOVIM
+
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+Later run **vim** and execute **:PlugInstall**
 
 ## Full Configuration
 
