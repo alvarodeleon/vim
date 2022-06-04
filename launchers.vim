@@ -18,6 +18,8 @@ autocmd FileType php nnoremap <F5> :ter php %<CR>
 autocmd FileType go nnoremap <F5> :ter go run %<CR>
 autocmd FileType ruby nnoremap <F5> :ter ruby %<CR>
 
+autocmd FileType rust  nnoremap <F5> :ter cargo run %<CR>
+
 "autocmd FileType cbl nnoremap <F5> :ter cobc -x %<CR>
 
 

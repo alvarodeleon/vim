@@ -66,5 +66,10 @@ Plug 'tpope/vim-repeat'
 
 Plug 'berdandy/AnsiEsc.vim'
 
+Plug 'dpelle/vim-LanguageTool'
 
+" Markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'mzlogin/vim-markdown-toc'
 call plug#end()
