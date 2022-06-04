@@ -103,9 +103,11 @@ inoremap <c-z> <c-o>:u<CR>
 "Select All
 map <C-a> ggVG
 
+"Warp line/No Warp line
+nnoremap <leader>w :set wrap linebreak<CR>
+nnoremap <leader>nw :set nowrap<CR>
 
 nnoremap <leader>f :Files .<CR>
-nnoremap <leader>nw :set nowarp<CR>
 
 "let g:coc_user_config = {}
 "let g:coc_user_config['coc.preferences.jumpCommand'] = ':SplitIfNotOpen4COC'
