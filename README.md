@@ -81,10 +81,21 @@ git clone https://github.com/vim/vim.git
 Executing in console:
 ```
 cd vim/src
+```
 
+```bash
 ./configure --with-features=huge --enable-cscope --enable-multibyte \
 --enable-pythoninterp --enable-python3interp \
 --with-python3-config-dir=/usr/lib64/python3.9/config-3.9-x86_64-linux-gnu \
+--enable-fail-if-missing --enable-gtk3-check --enable-gnome-check \
+--enable-gui=auto --with-x
+```
+or...
+
+```bash
+./configure --with-features=huge --enable-cscope --enable-multibyte \
+--enable-pythoninterp --enable-python3interp \
+--with-python3-config-dir=$(find / -type d -iname "config*-linux-gnu") \
 --enable-fail-if-missing --enable-gtk3-check --enable-gnome-check \
 --enable-gui=auto --with-x
 ```
