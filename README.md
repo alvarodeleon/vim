@@ -95,7 +95,7 @@ or...
 ```bash
 ./configure --with-features=huge --enable-cscope --enable-multibyte \
 --enable-pythoninterp --enable-python3interp \
---with-python3-config-dir=$(find / -type d -iname "config*-linux-gnu") \
+--with-python3-config-dir=$(find /usr/ -type d -iname "config-3*-linux-*") \
 --enable-fail-if-missing --enable-gtk3-check --enable-gnome-check \
 --enable-gui=auto --with-x
 ```
