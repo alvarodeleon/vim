@@ -4,6 +4,7 @@ set nocompatible
 set hlsearch
 set numberwidth=1
 set clipboard=unnamedplus
+set clipboard+=unnamed
 syntax enable
 set showcmd
 set ruler
