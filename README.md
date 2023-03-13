@@ -48,7 +48,7 @@ Later run **vim** and execute **:PlugInstall**
 
 #### Debian
 ```
-apt-get install git wget curl build-essential python3 python3-pip python-dev python3-venv libncurses5-dev libncursesw5-dev ruby-dev libgtk-3-dev snapd
+apt-get install git wget curl build-essential python3 python3-pip python-dev python3-venv libncurses5-dev libncursesw5-dev ruby-dev libgtk-3-dev snapd xclip
 
 apt-get build-dep vim-gtk
 
@@ -56,7 +56,7 @@ apt-get build-dep vim-gtk
 
 #### Fedora
 ```
-dnf install -y git wget curl python3 python3-pip python3-devel ruby ruby-devel ncurses-devel gtk3-devel snapd
+dnf install -y git wget curl python3 python3-pip python3-devel ruby ruby-devel ncurses-devel gtk3-devel snapd xclip
 
 dnf groupinstall "Development Tools"
 
